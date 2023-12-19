@@ -9,17 +9,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>crm-core-controller</artifactId>
-    <name>crm-core-controller</name>
+    <artifactId>crm-core-service</artifactId>
+    <name>crm-core-service</name>
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- modules -->
-        <dependency>
-            <groupId>br.com.claro.flex.crm</groupId>
-            <artifactId>crm-core-service</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

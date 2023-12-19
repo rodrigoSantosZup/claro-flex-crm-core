@@ -20,6 +20,7 @@
 	<modules>
 		<module>crm-core-application</module>
 		<module>crm-core-controller</module>
+		<module>crm-core-service</module>
 	</modules>
 
 	<properties>
@@ -32,6 +33,12 @@
 			<dependency>
 				<groupId>br.com.claro.flex.crm</groupId>
 				<artifactId>crm-core-controller</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>br.com.claro.flex.crm</groupId>
+				<artifactId>crm-core-service</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
